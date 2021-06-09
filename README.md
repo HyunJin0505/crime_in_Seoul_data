@@ -13,7 +13,7 @@
 | :- | - | :-: | 
 | 서울시 범죄 현황 데이터 | [서울 열린 데이터 광장](https://data.seoul.go.kr/dataList/datasetList.do)  | 서울시 경찰서별 검거율, 서울특별시 관서별 5대 범죄 현황
 | 서울시 CCTV 현황 데이터 | [서울 열린 데이터 광장](https://data.seoul.go.kr/dataList/datasetList.do)  | 구별 인구수, 구별 CCTV 현황
-| 서울시 경찰서별 검거율, 구별 범죄 발생율, 서울특별시 관서별 5대 범죄 현황 | [구글 클라우드 플랫폼](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com?project=quixotic-strand-305510) | 서울시 경찰서별 주소, 서울시 지도
+| 경찰서 위치 데이터 | [구글 클라우드 플랫폼](https://console.cloud.google.com/apis/library/geocoding-backend.googleapis.com?project=quixotic-strand-305510) | 서울시 경찰서별 주소, 서울시 지도
 
 + 2016년 이후 범죄 현황 데이터는 구별 경찰서의 정보를 포함하므로 2015년 데이터를 활용했습니다. (지리 정보 데이터 활용 익히기)
 
