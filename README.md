@@ -23,6 +23,7 @@
 | Wordcloud | 워드 클라우드(Word Cloud) 구현
 
 ### ✅ 결과물
+웹 페이지 생성
 |내용 | 구현 방식 
 | :- | - 
 | 웹 UI, 디자인 | Bootstrap 
