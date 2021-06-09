@@ -31,7 +31,7 @@
 | 구현 | html, css 
 | 배포(진행 중) | Netflify 웹 호스팅 서비스
 
-### ✅ 구현
+### ✅ 소스 코드
 [깃허브 레포지토리](https://github.com/HyunJin0505/crime_in_Seoul_data)
 
 
