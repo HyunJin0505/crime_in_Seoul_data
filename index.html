@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Digital Humanities</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-muted fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">INTRO</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team-member">MAP</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">VISUALIZATION</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">ver2015</div>
+                <div class="masthead-heading text-uppercase">5 Major Crimes in Seoul</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">START</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h1 class="section-heading text-uppercase">Intro</h1>
+                    <h3 class="section-subheading text-muted">Purpose of Project</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-8"> 
+                        <p style="font-size:1.2em"> 수많은 사람들이 살아가고 있는 도시 서울에서 발생하는 5대 범죄 사건들에 대한 데이터를 수집하고 구 별 범죄 현황을 확인한다.   
+                        파이썬 데이터분석 라이브러리들을 활용하며 학습한다. <br/>분석한 내용을 시각화하여 정보 파악이 용이하게 한다.
+                        </p>
+                        <h4 class="my-3">1. Data Analysis</h4>
+                        <p>
+                        데이터 전처리를 위해 사이킷런 preprocessing 패키지를 사용한다.<br/>
+                        데이터 가공과 편짐을 위해 <b>Pandas, Numpy</b> 라이브러리를 활용한다
+                        </p>
+                        <h4 class="my-3">2. Data Visualization</h4>
+                        <p class="text">
+                        파이썬 데이터 시각화 라이브러리 <b>Seaborn</b>과 지도 시각화 라이브러리 <b>Folium</b>을 활용<br/>
+                        Seaborn을 통해 pairplot, heapmap 형태 시각화 구현<br/>
+                        Folium을 사용하여 서울시 경찰서별 검거율과 구별 범죄 발생빈도 시각화 주소, 서울시 경찰서 위치 지도 구현
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img class="img-fluid" src="assets/img/키워드 복사본.png" alt="..." style="height:260px" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <!-- MAP-->
+        <section class="page-section" id="team-member">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">MAP</h2>
+                <h3 class="section-subheading text-muted">Map Visualization</h3>
+            </div>
+            <h4 class="text-center">서울시 경찰서별 검거율과 구별 범죄 발생빈도 시각화</h4>
+            <iframe src="./final.html" width="100%" height="100%" text-align="center" ></iframe>
+            <br/><br/><br/><br/><br/>
+            <h4 class="text-center">서울시 경찰서 위치 시각화</h4>
+            <iframe src="./police.html" width="100%" height="100%" text-align="center" ></iframe>
+        </section>
+        
+
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Visualization</h2>
+                    <h3 class="section-subheading text-muted">Analysis & Visualization with Python</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal1">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/norm.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Data Final</div>
+                                <div class="portfolio-caption-subheading text-muted">Pandas, Numpy</div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/키워드.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Word Cloud</div>
+                                <div class="portfolio-caption-subheading text-muted">5대 범죄 키워드</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/발생건수지도.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Folium Map</div>
+                                <div class="portfolio-caption-subheading text-muted">발생량 비교</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/검거율시각화.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Heatmap</div>
+                                <div class="portfolio-caption-subheading text-muted">검거율 비교</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal5">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/범죄발생량시각화.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Heatmap</div>
+                                <div class="portfolio-caption-subheading text-muted">발생량 비교</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="img-fluid" src="assets/img/portfolio/강도살인폭력.png" alt="..." />
+                            </a>
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Pairplot</div>
+                                <div class="portfolio-caption-subheading text-muted">강도,살인,폭력</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">
+                        Copyright &copy; Your Website
+                        <!-- This script automatically adds the current year to your website footer-->
+                        <!-- (credit: https://updateyourfooter.com/)-->
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Data Analysis</h2>
+                                    <p class="item-intro text-muted">Pandas, Numpy</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/norm.png" alt="..." />
+                                    <p>데이터를 각 구별로 나누어 정리했다. <br/>
+                                    각 구별 데이터 - 5대 범죄 각 발생건수, 검거율, 인구수, CCTV개수, 총 범죄, 총 검거율<br/>
+                                    비교에 용이하도록 범죄와 검거율 총합은 0~1사이의 소숫로 정규화했다.<br/>
+                                    <br/>
+                                    <b>Notice</b><br/>
+                                    ✓ 인구수의 경우 세부적인 구분 없이 명 수만으로 계산했다.<br/>
+                                    ✓ 전년도 검거 건수 누적으로 검거율이 100%를 넘어가는 경우, 100%로 통일했다
+                                    </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Pairplot</h2>
+                                    <p class="item-intro text-muted">강도, 살인, 폭력의 관계</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/강도살인폭력.png" alt="..." />
+                                    <p>Seaborn 라이브러리를 통해 Pairplot 형태로 시각화 구현<br/>
+                                    Pairplot의 경우 'scatter','kde','hair','reg'네 종류의 그래프를 지원한다.<br/> 이 경우에는 reg 옵션을 선택했다.<br/>
+                                    </p>
+                                    <ul class="list-inline">
+                                        <li>
+                                            <strong>시각화 결과: </strong>
+                                            강도, 살인, 폭력은 양의 관계를 갖고 있다.
+                                        </li>
+                                    </ul>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Word Cloud</h2>
+                                    <p class="item-intro text-muted"키워드></p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/키워드.png" alt="..." />
+                                    <p>word cloud 라이브러리를 사용하여 구현<br/>
+                                    사용한 데이터에서 빈도가 숫자(합계, 비율)로 표현되어 있어서 워드클라우드 구현에 활용하지 못했다.<br/>
+                                    5대 범죄 키워드로 워드 클라우드를 생성했으나, 이후 숫자형 데이터를 이용한 구현 방법에 대해 연구할 계획이다.
+                                    </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Heapmap</h2>
+                                    <p class="item-intro text-muted">구별 경찰서의 검거율</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/검거율시각화.png" alt="..." />
+                                    <p>Seaborn라이브러리를 통해 데이터를 heatap 형식으로 시각화했다.<br/>
+                                    색감의 농도를 통해 크기, 빈도 등의 정보를 파악할 수 있다.<br/><br/>
+                                    이 경우에 절도의 검거율이 다른 5대 범죄의 검거율보다 현저히 떨어진다는 <br/>사실을 파악할 수 있다.<br/>
+                                    검거율이 가장 높은 3구는 도봉구, 금천구, 강서구 이며<br/>
+                                    가장 낮은 3구는 중구, 동작구, 구로구라는 사실을 확인할 수 있다.
+                                    </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Heapmap</h2>
+                                    <p class="item-intro text-muted">5대 범죄 발생량</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/범죄발생량시각화.png" alt="..." />
+                                    <p>Seaborn라이브러리를 통해 데이터를 heatap 형식으로 시각화했다.<br/>
+                                    색감의 농도를 통해 크기, 빈도 등의 정보를 파악할 수 있다.<br/><br/>
+                                    범죄 건수를 0~1사이의 소수로 정규화하여 비교가 용이하도록 만들었다.<br/>
+                                    범죄 발생 건수의 비율이 가장 높은 3구는 강남구, 영등포구, 송파구 이며<br/>
+                                    가장 낮은 3구는 도봉구, 서대문구, 금천구라는 사실을 확인할 수 있다.
+                                    </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">MAP</h2>
+                                    <p class="item-intro text-muted">인구당 구별 5대 범죄 발생 건수</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/발생건수지도.png" alt="..." />
+                                    <p>Folium라이브러리를 활용하여 각 구별 범죄 5대 범죄 발생 건수를 시각화했다. <br/>
+                                    </p>
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close Project
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
