@@ -25,6 +25,8 @@
 ### ✅ 결과물
 1. Jupyter Notebook
 2. 웹 페이지 생성
+
+
 |내용 | 구현 방식 
 | :- | - 
 | 웹 UI, 디자인 | Bootstrap 
